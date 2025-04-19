@@ -119,4 +119,3 @@ class FID:
                                             device=str(device),
                                             dims=2048)
         return fid_value
-
