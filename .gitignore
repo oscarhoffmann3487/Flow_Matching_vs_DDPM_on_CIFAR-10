@@ -3,3 +3,4 @@ venv
 datasets
 test_dataset
 FID
+.DS_Store
