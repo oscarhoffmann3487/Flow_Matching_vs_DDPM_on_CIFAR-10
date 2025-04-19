@@ -3,7 +3,7 @@
 [![PyTorch ≥1.10](https://img.shields.io/badge/pytorch-%3E%3D1.10-red.svg)]()
 [![CIFAR‑10](https://img.shields.io/badge/dataset-CIFAR--10-orange.svg)]()
 
-# Flow Matching with Optimal Transport vs. DDPM on CIFAR‑10
+# Flow Matching with OT vs. DDPM on CIFAR‑10
 
 <p align="center">
   <img src="assets/cover.png" alt="Project Cover" width="800"/>
@@ -16,8 +16,8 @@ This repository presents a full implementation and comparison of two generative 
 
 - **Denoising Diffusion Probabilistic Model (DDPM)**  
   A classic 1,000‑step diffusion process with a U‑Net backbone and MSE loss.
-- **Metrics**  
 
+- **Metrics**  
   FID score, sample quality grids, and inference time benchmarks.
 
 Both are trained for 500 epochs on **50 000 train / 10 000 test** CIFAR‑10 images, using only a **consumer‑grade GPU** (NVIDIA 4060 Ti 16 GB VRAM). Under identical compute budgets, FlowOT achieves **FID ≈ 49** vs. DDPM’s **≈ 55**, while sampling ∼ 20 % faster. 
