@@ -1,4 +1,3 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)]()
 [![PyTorch ≥1.10](https://img.shields.io/badge/pytorch-%3E%3D1.10-red.svg)]()
 [![CIFAR‑10](https://img.shields.io/badge/dataset-CIFAR--10-orange.svg)]()
